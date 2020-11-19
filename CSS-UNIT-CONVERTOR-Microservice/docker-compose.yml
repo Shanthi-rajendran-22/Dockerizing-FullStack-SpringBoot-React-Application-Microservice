@@ -1,0 +1,57 @@
+version: '3.7'
+services:
+
+  unit-convertor-service:
+    build:
+      context: ./unitconvertor     # path in which the dockerfile is present
+      dockerfile: Dockerfile
+      #ports:
+    #- "8000:8000"
+    restart: always
+    depends_on: # Start the depends_on first
+    - mysql
+    environment:
+      DATABASE_HOSTNAME: mysql  # Should be same as the service name
+      #      DATABASE_PORT: 3307
+      DATABASE_NAME: convert_micro_db # database variable for application.properties
+      DATABASE_USERNAME: user # database username variable for application.properties
+      DATABASE_PASSWORD: password # database password variable for application.properties
+    networks:
+      - unit-conversion-compose-network
+
+  mysql:
+    image: mysql:5.7 #base image
+    #    ports:
+    #      - "3307:3306"
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: convert_micro_db
+    volumes:
+      - mysql-convertor-database-data-volume:/var/lib/mysql #mysql folder inside host that contains data
+    networks:
+      - unit-conversion-compose-network #Custom network
+
+  unit-conversion-service:
+    build:
+      context: ./unit-conversion                      # path in which the dockerfile is present
+      dockerfile: Dockerfile
+    ports:
+      - "8100:8100"
+    restart: always
+    environment:
+      CONVERTOR_URI: http://unit-convertor-service:8000
+    depends_on:
+      - unit-convertor-service
+    networks:
+      - unit-conversion-compose-network
+
+# Networks to be created to facilitate communication between containers
+networks:
+  unit-conversion-compose-network:
+
+# Volumes
+volumes:
+  mysql-convertor-database-data-volume:

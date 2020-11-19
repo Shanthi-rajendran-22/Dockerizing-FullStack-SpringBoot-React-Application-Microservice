@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="39cbb876-eaf7-4c6e-9930-524357d9b2ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit-conversion/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unitconvertor/src/main/java/com/css/unitconvertor/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unitconvertor/src/main/java/com/css/unitconvertor/pojo/ErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-conversion/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unit-conversion/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit-conversion/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/unit-conversion/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitconvertor/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/unitconvertor/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitconvertor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unitconvertor/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kTTXydZgx4go4Tzqc4WlgBkoFA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="docker-compose.yml.currency-exchange-service: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="currency-exchange-service" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.currency-exchange-service: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39cbb876-eaf7-4c6e-9930-524357d9b2ae" name="Default Changelist" comment="" />
+      <created>1605723625709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605723625709</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="362" y="198" width="698" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605759138650">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="362" y="198" width="698" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1605759138650" />
+    <state x="285" y="127" width="702" height="580" key="find.popup" timestamp="1605758061397">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="285" y="127" width="702" height="580" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1605758061397" />
+  </component>
+</project>

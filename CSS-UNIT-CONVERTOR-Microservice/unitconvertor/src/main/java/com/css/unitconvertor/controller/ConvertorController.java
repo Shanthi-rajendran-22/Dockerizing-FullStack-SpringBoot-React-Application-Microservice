@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RestController;
-
+import com.css.unitconvertor.exception.Exception;
 import java.util.Map;
 
 @RestController
@@ -23,7 +23,7 @@ public class ConvertorController {
         Convertor value = convertorRepository.findByFromAndTo(from, to);
 
         if (value == null) {
-            throw new RuntimeException("Unable to find data to convert " + from + " to " + to);
+            throw new Exception("Unable to find data to convert " + from + " to " + to);
         }
 
         return value;

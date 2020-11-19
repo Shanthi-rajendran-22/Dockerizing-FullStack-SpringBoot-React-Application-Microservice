@@ -7,8 +7,8 @@ services:
     ports:
       - "4200:80"                #run the frontend application in 4200 port on the host 
     restart: always
-    depends_on:
-      - hello-world-sb          # start * service before the current service
+#    depends_on:
+#      - hello-world-sb          # start * service before the current service
     networks:
       - hello-world-springboot  # connect to custom network
 
