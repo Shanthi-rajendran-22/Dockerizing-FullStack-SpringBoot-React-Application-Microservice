@@ -1,0 +1,19 @@
+version: '3.7'
+services:
+  hello-world-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4200:80"
+    restart: always
+    depends_on:
+      - hello-world-api 
+    networks:
+      - hello-world-springboot
+
+ 
+  
+# Networks to be created to facilitate communication between containers
+networks:
+  hello-world-springboot:

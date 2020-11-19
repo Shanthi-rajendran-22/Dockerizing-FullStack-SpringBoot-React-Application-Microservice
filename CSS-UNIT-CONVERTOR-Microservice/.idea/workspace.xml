@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cbb876-eaf7-4c6e-9930-524357d9b2ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit-conversion/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unitconvertor/src/main/java/com/css/unitconvertor/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unitconvertor/src/main/java/com/css/unitconvertor/pojo/ErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit-conversion/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unit-conversion/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit-conversion/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/unit-conversion/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitconvertor/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/unitconvertor/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unitconvertor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unitconvertor/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +87,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="362" y="198" width="698" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605759138650">
